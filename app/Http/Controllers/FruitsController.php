@@ -6,6 +6,9 @@ use App\Enums\Fruits;
 
 class FruitsController extends Controller 
 {
+    /**
+     * Display the specified resource.
+     */
     public function show() 
     {
         $case = Fruits::randomCase();

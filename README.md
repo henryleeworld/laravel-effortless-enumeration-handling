@@ -1,4 +1,4 @@
-# Laravel 11 輕鬆列舉處理
+# Laravel 12 輕鬆列舉處理
 
 引入 emreyarligan 的 enum-concern 套件來擴增輕鬆列舉處理，目的在通過提供一套全面的方法來簡化列舉功能的使用，在集合的支援下，提供無縫且熟悉的使用體驗。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/fruits` 來進行水果隨機取得。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/J1zme0J.png)
+![](https://i.imgur.com/COqirfd.png)
 > 最大的用途就是可以幫助我們提升程式的易讀性
